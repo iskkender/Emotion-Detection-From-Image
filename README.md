@@ -2,6 +2,7 @@
 
 Bu projede, Conventional Neural Networks (CNN) kullanarak Deep Learning tekniği uyguladım.
 Kullandığım veri seti 48x48 grayscale ortalanmış ve sınıflandırılmış yüz resimlerinden oluşuyordu.
+
 Projenin amacı, 7 farklı duygu ifadesini insan yüzlerinden elde edilen görsel verilerle ayırt edebilmekti.
 Data augmentation,normalisation,one-hot encoding ,dynamic learnin rates tekniklerine yer verdim.
 
