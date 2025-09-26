@@ -2,6 +2,8 @@
 
 Bu projede, Conventional Neural Networks (CNN) kullanarak Deep Learning tekniği uyguladım.
 Kullandığım veri seti 48x48 grayscale ortalanmış ve sınıflandırılmış yüz resimlerinden oluşuyordu.
+Projenin amacı, 7 farklı duygu ifadesini insan yüzlerinden elde edilen görsel verilerle ayırt edebilmekti.
+Data augmentation,normalisation,one-hot encoding ,dynamic learnin rates tekniklerine yer verdim.
 
 Veri setine ait Data Card : https://www.kaggle.com/datasets/msambare/fer2013
 
@@ -12,6 +14,10 @@ Sınıflar 7 farklı duygusal ifadeyi temsil ediyor: sinir, iğrenme, korku, mut
 29.000 civarı resim içeren bu veri setinde dağılım eşit değildi, bu yüzden **confusion matrixte bazı etiketlerin diğerlerine göre daha iyi ayırt edildiği görülebiliyor**, örneğin mutluluk ifadesi,
 iğrenme ifadesine karşılık yaklaşık **17 kat** daha fazla veri içeriyor.
  <img width="652" height="513" alt="image" src="https://github.com/user-attachments/assets/99a7aa32-bf84-4656-b486-688f809c1b19" />
+
+Projeden elde edilen sonuçlar:
+Kullandığım modelin 7 farklı duygusal yüz ifadesi üzerineki performansını analiz ettiğimde ortalama %65.24 başarı oranıyla resimleri doğru bir şekilde etiketlendirebilgiğini gözlemledim.
+Başarı oranı daha fazla veri içeren ifadeler için çok daha yüksekti,bu da bu alanlarda gerekli veri sağlandığında modelin performansının artacağına işaret ediyor.
 
  Modele ait loss ve accuracy grafikleri:
  <img width="965" height="401" alt="image" src="https://github.com/user-attachments/assets/f8c80b97-3dca-4bbf-b4ad-76bf8a30528d" />
